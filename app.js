@@ -4,6 +4,6 @@ const GREET = user => {
 
 let greeting = GREET("Rodrigo");
 
-const p = document.querySelector('p');
+const p = document.getElementById('greetings');
 
 p.innerText = greeting
