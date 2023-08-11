@@ -1,5 +1,9 @@
 const GREET = user => {
-  console.log(`Hello ${user}!`)
+  return `Hello ${user}!`;
 }
 
-GREET("Rodrigo");
+let greeting = GREET("Rodrigo");
+
+const p = document.querySelector('p');
+
+p.innerText = greeting
