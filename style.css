@@ -2,3 +2,9 @@ h1 {
     text-align: center;
     color: #00FF00;
 }
+
+p {
+    font-size: 1.5rem;
+    color: #0000FF;
+    text-align: center;
+}
