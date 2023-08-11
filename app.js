@@ -4,7 +4,7 @@ const GREET = user => {
 
 let greeting = GREET("Rodrigo");
 
-const p = document.getElementById('greetings');
+let p = document.getElementById('greetings');
 
 p.innerText = greeting
 
