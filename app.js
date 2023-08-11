@@ -6,6 +6,5 @@ let greeting = GREET("Rodrigo");
 
 let p = document.getElementById('greetings');
 
-p.innerText = greeting
+p.innerText = greeting;
 
-console.log(GREET("Anderson"))
